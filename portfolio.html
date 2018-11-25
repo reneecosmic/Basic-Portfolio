@@ -2,21 +2,25 @@
 <html lang="en">
 <head>
     <title>Renee Hickman's Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
-<body>
+<body>   
+    <div class="headerWrapper">
     <header>
         <h1>Renee Hickman</h1>
         <nav>
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
+            <ul>
+                <li class="border"><a href="index.html" title="About">About</a></li>
+                <li class="border"><a href="portfolio.html" title="Portfolio">Portfolio</a></li>
+                <li class="contact"><a href="contact.html" title="Contact">Contact</a></li>
+            </ul>
         </nav>
     </header>
+    </div>
     
-
-    <div class="container">
-        <section>
+    <div class="contentWrapper">
+        <section id="portfolio">
             <h2>Portfolio</h2>
 
             <div class="portfolioImg">
@@ -44,12 +48,11 @@
                 <a href="#"><h3>Rock Paper Scissors</h3></a>
             </div>
 
-        </section>
-
+        </section>  
     </div>
 
-    <footer>
-        Copyright&copy;
+    <footer class="footer">
+        <p>Copyright&copy;</p>
     </footer>
 
 </body>

@@ -2,31 +2,36 @@
 <html lang="en">
 <head>
     <title>Renee Hickman's About Me</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
+    <div class="headerWrapper">
     <header>
         <h1>Renee Hickman</h1>
         <nav>
-            <a href="index.html">About</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="contact.html">Contact</a>
+            <ul>
+                <li class="border"><a href="index.html" title="About">About</a></li>
+                <li class="border"><a href="portfolio.html" title="Portfolio">Portfolio</a></li>
+                <li class="contact"><a href="contact.html" title="Contact">Contact</a></li>
+            </ul>
         </nav>
     </header>
+    </div>
     
 
-    <div class="container">
-        <section>
+    <div class="contentWrapper">
+        <section id="about">
             <h2>About Me</h2>
-            <img src="assets/images/reneePortfolio.jpg" id="aboutPic" alt="Renee Hickman's Bio Picture">
+            <img id="aboutPic" src="assets/images/reneePortfolio2.jpg" alt="Renee Hickman's Bio Picture">
             <p>Since I was young, I have always been inspired by the world around me. For the past 9 years, video editing and digital design has been the main way I express my love for the things I'm passionate about. Looking at my past work, I see that I'm ultimately driven by my unique perspective on relating to the world around me. No matter the medium, I enjoy inspiring the creativity in others around me.</p> 
+            </br>
             <p>When I'm not on the ice playing hockey, it is my passion to design, edit, code and create. I am currently pursuring my niche for coding through SMU's coding bootcamp. I have a focus on front end development and am excited to see what is next on my journey.</p>
         </section>
-
     </div>
 
-    <footer>
-        Copyright&copy;
+    <footer class="footer">
+        <p>Copyright&copy;</p>
     </footer>
 
 </body>
