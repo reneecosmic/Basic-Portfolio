@@ -92,6 +92,7 @@ h3{
     text-decoration:none;
 }
 
+
 .portfolioImg h3:hover{
     color:#777;
     background:#ddd;
@@ -208,4 +209,11 @@ textarea{
     padding:10px 30px;
     color:#fff
 }
+
+#submit:hover{
+    background:#ddd;
+    color:#777;
+}
+
+
        
